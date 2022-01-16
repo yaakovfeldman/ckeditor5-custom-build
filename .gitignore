@@ -1,5 +1,9 @@
 # Custom
 build
+log/build
+messages/build
+log/node_modules
+messages/node_modules
 
 # Logs
 logs
