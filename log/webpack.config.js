@@ -24,7 +24,7 @@ module.exports = {
 
 	output: {
 		// The name under which the editor will be exported.
-		library: 'CKSource',
+		library: 'ClassicEditor',
 
 		path: path.resolve( __dirname, 'build' ),
 		filename: 'ckeditor.js',
@@ -35,7 +35,6 @@ module.exports = {
 	optimization: {
 		minimizer: [
 			new TerserWebpackPlugin( {
-				sourceMap: true,
 				terserOptions: {
 					output: {
 						// Preserve CKEditor 5 license comments.
