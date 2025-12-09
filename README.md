@@ -8,6 +8,12 @@ Due to https://github.com/ckeditor/ckeditor5/issues/10978 I added `node: { globa
 
 There are 2 builds in this repo: `messages` is a bare bones editor and `log` is a full featured one (but without image support).
 
+Note that the builds are from 2021 but as of 2025 (don't know when change occured) ckeditor possibly moved some features like paste from office into premium package. Or didn't? Its not clear. The builder page implies even the regular paste from office is now premium.
+
+Note that the messages build lacks the alignment and TextPartLanguage items which are present in log build and which are used in main app for a hacky way to make RTL work - but seems to be ok without it.
+
+
+
 ## Quick start
 
 1. Open the `sample/index.html` page in the browser.
